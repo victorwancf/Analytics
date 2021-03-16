@@ -2252,6 +2252,17 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
+	ul.actions_center {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		cursor: default;
+		list-style: none;
+		margin-left: 20em;
+		padding-left: 0;
+	}
+
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
