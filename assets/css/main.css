@@ -2043,7 +2043,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
-
+		
 		.image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
@@ -2712,7 +2712,7 @@ input, select, textarea {
 			}
 
 /* Poptrox */
-
+	
 	@-moz-keyframes spin {
 		0% {
 			-moz-transform: rotate(0deg);

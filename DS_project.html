@@ -38,11 +38,12 @@
 				<h2>Stock Price Prediction with K-nearest Neighbors (KNN) and Random Forest<br /></h2>
 			</header>
 			<p>
-				Predicting stock price is one of the popular fields where machine learning is applicable. <br />
-				Market trends, news, price action, and performance of the industry are some of the key factors
-				affecting the stock price. This project will focus on the price action and aims
+				This project focus on the price action and aims
 				to predict stock price on the next day whether it is up or down,
-				utilizing KNN, random forest, and financial indicators to maximize the accuracy of the model.
+				utilizing KNN, random forest, and financial indicators to maximize the accuracy of the model.<br />
+				The final accuracy of the model is 0.6893. The model may not having a very good performance with only using 
+				classification models and price momentum indicators.  Time series analysis, such as Long Short Term Memory and 
+				ARIMA could be applied to develop a more precise model on the stock price prediction.
 			</p>
 			<div class="table-wrapper">
 				<table class="alt">
@@ -55,11 +56,11 @@
 					<tbody>
 						<tr>
 							<td>KNN</td>
-							<td>0.6684</td>
+							<td>0.668</td>
 						</tr>
 						<tr>
 							<td>Random Forest</td>
-							<td>0.6893</td>
+							<td>0.689</td>
 						</tr>
 					</tbody>
 				</table>
@@ -103,8 +104,30 @@
 				<h2>Movie Rating Prediction with Regularized Multivariate Regression Model<br /></h2>
 			</header>
 			<p>
-				This is the Description.
+				Rating prediction is important for movie recommendation system on item specific recommendation. 
+				Different factors including movie effects, user effect, movie released year and genre of the 
+				movie could affect the movie rating. The project aims to predict movie rating on a given movie data set (movielen). 
+				The model is built on Multivariate Regression methods. A regularization approach is used on improving the accuaracy.
+				The evaluation metrics, Resdiual Mean Square Error (RMSE), is used. For a lower RMSE, the predicted result is more close to the actual rating.
+				The final proposed model is in the following:
 			</p>
+
+			<div class="table-wrapper">
+				<table class="alt">
+					<thead>
+						<tr>
+							<th>Model</th>
+							<th>RMSE</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Movie + User + Year + Genre effect model after regularized</td>
+							<td>0.865</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 
 			<h4>Overview</h4>
 			<div class="table-wrapper">
@@ -124,7 +147,7 @@
 
 			<div class="col-6 col-12-small">
 				<ul class="actions stacked">
-					<li><a href="#" class="button primary">Github Master</a></li>
+					<li><a href="https://github.com/victorwancf/Movielen_Project" target="blank" class="button primary">Github Master</a></li>
 				</ul>
 
 				<ul class="actions">
@@ -142,12 +165,36 @@
 			</div>
 
 			<header class="major">
-				<h2>Classifying European Money Denominations with CNN (Resnet18 and DenseNet 121) in Pytorch<br />
+				<h2>
+					Classifying European Money Denominations with CNN (Resnet18 and DenseNet 121)
 				</h2>
 			</header>
 			<p>
-				This is the Description.
+				This project aims to classify european money denominations. The neutral network is built on pytorch 
+					and Convolutional Neural Network (CNN) is used as the neutral network on the classification. Both Resnet18 and DenseNet 121 is used for performance comparison.
+					Both of the model is well trained and having an accuaracy of 0.95 above.
 			</p>
+
+			<div class="table-wrapper">
+				<table class="alt">
+					<thead>
+						<tr>
+							<th>Model</th>
+							<th>Accuaracy</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>CNN (Resnet18)</td>
+							<td>0.986</td>
+						</tr>
+						<tr>
+							<td>CNN (DenseNet 121)</td>
+							<td>0.957</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 
 			<h4>Overview</h4>
 			<div class="table-wrapper">
@@ -167,7 +214,7 @@
 
 			<div class="col-6 col-12-small">
 				<ul class="actions stacked">
-					<li><a href="#" class="button primary">Github Master</a></li>
+					<li><a href="https://github.com/victorwancf/Classifying-European-Money-Denominations-with-CNN" target="blank" class="button primary">Github Master</a></li>
 				</ul>
 
 				<ul class="actions">
@@ -189,7 +236,9 @@
 				</h2>
 			</header>
 			<p>
-				This is the Description.
+				This project predicts the complaint that a more likely to be happened on the residential flat though numbers of selected features, 
+				including numbers of floors, locations, built year,etc.. 
+				Would heat/hot water complaint or heating complaint are more likely to happen. This classification problem is solved using KNN, SVM model and Logistic regression.
 			</p>
 
 			<h4>Overview</h4>
@@ -210,7 +259,7 @@
 
 			<div class="col-6 col-12-small">
 				<ul class="actions stacked">
-					<li><a href="#" class="button primary">Github Master</a></li>
+					<li><a href="https://github.com/victorwancf/NYC_311_Complaint_Prediction" target="blank" class="button primary">Github Master</a></li>
 				</ul>
 
 				<ul class="actions">
