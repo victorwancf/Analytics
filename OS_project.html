@@ -41,6 +41,8 @@
 			</header>
 			<p>
 				Building a stock and etf database with postgreSQL and Timescale DB. Gathering data from Alpaca API and IEX Cloud. 
+				Executing differenct SQL quries to answer different questions, such as which stock has been sold or brought by a specific ETF on selected date or current date.
+				The database also includes comments from wallstreetbets using PushshiftAPI. Questions, such as most mentioned stock on selected time period, can be answered.
 
 				<br><br>Credit: Parttimelarry</br></br>
 			</p>
@@ -90,9 +92,10 @@
 			<p>
 				Building a financial dashboard using streamlit and redis. Gathering data from IEX Cloud API. 
 				The dashboard consists of total 5 parts. 
-				Showing latest comments from twitter, wallstreetbets and stockwits of the input stock.
+				Showing latest comments from twitter, wallstreetbets and stockwits for the input stock.
 				The number of most mentioned stock on wallstreetbets is formated and shown on the dashboard.
-				The dashboard also consists of latest news and charts of the input stock.
+				The dashboard also consists of latest news and charts of the input stock. 
+				This dashboard aims to provide social data overview towards input stock to help user conduct trade execution.
 
 				<br><br>Credit: Parttimelarry</br></br>
 			</p>
@@ -143,6 +146,7 @@
 				This project investing strategy that selects the 50 stocks with the best value metrics, 
 				including Price-to-earnings ratio, Price-to-book ratio, Price-to-sales ratio, etc.
 				Both Value Investing and Momentum Investing are used on the stock evaluation.
+				The portfolio and trading strategy is output to be an excel file with the help of xlsxwriter.
 
 				<br><br>Credit: freeCodeCamp.org</br></br> <!-- https://www.youtube.com/watch?v=xfzGZB4HhEE&t=5s&ab_channel=freeCodeCamp.org -->
 			</p>
@@ -186,8 +190,9 @@
 				<h2>Crypto Trading Bot<br /></h2>
 			</header>
 			<p>
-				This project aims to bulit a crypto trading bot. The strategy used is the supertrend indicators. 
-				The bot is connected to Binance API and execute trades when some criteria is matched.
+				This project aims to bulit a crypto trading bot. Supertrend indicators are chosen for the trade execution strategy. 
+				The bot is connected to Binance API and execute trades when criteria are matched. The ccxt Library provides a bridge between crtpyo trading platforms and python.
+				The data gathered from binance api with ccxt and processed with pandas. The schedule library helps to update the streamling data every 20s.
 
 				<br><br>Credit: Parttimelarry</br></br>
 			</p>
